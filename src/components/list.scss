@@ -1,0 +1,19 @@
+.fancy-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+ &__item {
+   div {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+     width: 100px;
+     height: 100px;
+     overflow: hidden;
+   }
+   img {
+     width: 100%;
+     max-width: 100%;
+   }
+ }
+}
